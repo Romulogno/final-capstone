@@ -47,7 +47,7 @@ function BookForm() {
     <div className="bookform">
       <form onSubmit={handleSubmit}>
         <div className="bookform-container">
-          <h1 className="bookform-header">Book your table {state.user}</h1>
+          <h1 className="bookform-header">BOOK YOUR TABLE {state.user}</h1>
           <label className="bf-left-side" htmlFor="res-user">
             User Name: {state.user}
           </label>
