@@ -1,0 +1,59 @@
+:root {
+    --primary1: #494949;
+    --primary2: #F4CE14;
+    --secondary1: #EE9972;
+    --secondary2: #FBDABB;
+    --secondary3: #EDEFEE;
+    --secondary4: #333333;
+  }
+
+.specials {
+    width: 100%;
+}
+
+.specials .container {
+    margin-top: 150px;
+    min-height: 700px;
+}
+
+.specials-upper-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 90px;
+    padding-bottom: 30px;
+}
+
+.specials-bottom-side {
+    display: flex;
+    justify-content: space-around;
+}
+
+.specials-title{
+    font-size: 65px;
+    font-family: 'Markazi Text';
+    text-align: center;
+}
+
+@media screen and (max-width:940px) {
+
+    .specials .container {
+        margin-top: 0 ;
+        padding: 0 auto;
+    }
+    .specials-upper-side{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 250px;
+        padding: 20px 0;
+    }
+    .specials-bottom-side  {
+        flex-direction: column;
+        min-height: 450px;
+        width: 100%;
+        align-items: center;
+    }
+    .specials-title{
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,38 @@
+:root {
+    --primary1: #494949;
+    --primary2: #F4CE14;
+    --secondary1: #EE9972;
+    --secondary2: #FBDABB;
+    --secondary3: #EDEFEE;
+    --secondary4: #333333;
+  }
+
+.testimonials {
+background-color: var(--secondary3);
+}
+
+.testimonials .container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 580px;
+  padding: 50px;
+}
+
+.test-card-container {
+  display: flex;
+  width:100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonials .container .test-title {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+@media screen and (max-width:940px){
+  .test-card-container{
+    min-height: 740px;;
+  }
+}

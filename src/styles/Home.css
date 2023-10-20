@@ -1,0 +1,9 @@
+.home {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+
+@media screen and (max-width:940px) {
+    
+}

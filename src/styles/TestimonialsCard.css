@@ -1,0 +1,60 @@
+:root {
+    --primary1: #494949;
+    --primary2: #F4CE14;
+    --secondary1: #EE9972;
+    --secondary2: #FBDABB;
+    --secondary3: #EDEFEE;
+    --secondary4: #333333;
+  }
+
+
+.testimonials-card-container {
+    width: 200px;
+    height: 175px;
+    display: grid;
+    grid-template-columns: 2;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.863);
+    border-radius: 5px;
+}
+
+.testimonials-card-container:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.testimonials-card-container .test-image{
+    width: 80px;
+    height: 80px;
+    grid-column: 1/ span 1;
+    justify-self: center;
+    border-radius: 6px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.test-name{
+    font-size: 18px;
+    font-weight: bold;
+    grid-column: 1/ span 2;
+    justify-self: center;
+}
+
+.test-rate{
+    font-size: 26px;
+    font-weight: bold;
+    grid-column: 2/ span 1;
+}
+
+.test-text {
+    width: 180px;
+    height: 47px;
+    grid-column: 1/span 2;
+}
+
+
+

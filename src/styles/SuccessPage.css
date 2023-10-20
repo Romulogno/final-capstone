@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Markazi+Text:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --primary1: #494949;
+  --primary2: #F4CE14;
+  --secondary1: #EE9972;
+  --secondary2: #FBDABB;
+  --secondary3: #EDEFEE;
+  --secondary4: #333333;
+}
+
+.successPage {
+    width: 530px;
+    height: 425px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 16px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.successPage p{
+  width: 100%;
+}
+
+.success-icon {
+  color: green;
+  font-size: 50px;
+  align-self: center;
+}
+
+@media screen and (max-width: 940px) {
+  .successPage{
+    width: 361px;
+    height: 333px;
+    margin: 40px auto 150px auto;
+  }
+  .button{
+    width: 145px;
+    height: 46.5px;
+  }
+}

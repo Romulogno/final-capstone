@@ -1,0 +1,64 @@
+:root {
+    --primary1: #494949;
+    --primary2: #F4CE14;
+    --secondary1: #EE9972;
+    --secondary2: #FBDABB;
+    --secondary3: #EDEFEE;
+    --secondary4: #333333;
+  }
+
+  .aboutUs .container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+  }
+
+  .aboutUs .left-side {
+    display: grid;
+    width: 50%;
+    height: 400px;
+    align-content: space-around;
+    padding: 3rem;
+  }
+
+  .aboutUs .right-side {
+    width: 50%;
+    display: flex;
+  }
+
+  .aboutUs .aboutUs-pic{
+    width: 274px;
+    height: 352px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .aboutUs .over-pic1{
+    transform: translate(0px, 160px);
+  }
+
+  .aboutUs .over-pic2{
+    transform: translate(-100px, 80px);
+  }
+
+
+  @media screen and (max-width:940px){
+    .aboutUs .left-side {
+        width: 100%;
+    }
+
+    .aboutUs .right-side {
+        width: 100%;
+        justify-content: space-around;
+        padding: 0 30px;
+    }
+    .aboutUs .aboutUs-pic{
+        width: 175px;
+        height: 225px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+        transform: translate(0px, 0px);
+    }
+    .aboutUs .container{
+        height: 700px;
+      }
+    }

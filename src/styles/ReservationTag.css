@@ -1,0 +1,21 @@
+.reservation-tag {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    height: 47px;
+}
+
+.reservation-tag p{
+    font-size: 16px;
+    font-weight: 600;
+    font-variant: small-caps;
+    width: 70%;
+    text-align: center;
+}
+
+.reservation-tag button {
+    width: 201px;
+    height: 27px;
+    border-radius: 16px;
+}
+
